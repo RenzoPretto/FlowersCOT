@@ -1,0 +1,48 @@
+{
+  "name": "flowersapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.3",
+    "@testing-library/user-event": "^7.1.2",
+    "aws-sdk": "^2.588.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nan": "^2.14.0",
+    "node-gyp": "^6.0.1",
+    "node-pre-gyp": "^0.14.0",
+    "python": "0.0.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.0",
+    "request": "^2.88.0",
+    "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master",
+    "swig": "^1.4.2"
+  },
+  "externals": {
+    "sqlite3": "sqlite3"
+  },
+  "scripts": {
+    "start": "react-scripts start nodemon server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:dev": "nodemon server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
